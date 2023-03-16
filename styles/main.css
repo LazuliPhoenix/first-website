@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Quantico:wght@700&family=VT323&display=swap');
+
+nav,a {
+    list-style: none;
+    background-color: rgba(36, 35, 35, 0.941);
+    padding: 2px;
+    font-size: 25px;
+    font-family: 'Quantico', sans-serif;
+}
+
+ul {
+    list-style: none;
+    background-color: rgba(36, 35, 35, 0.941);
+    padding: 9px;
+}
+
+li{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+}
+
+li a:link {
+    text-decoration: none;
+    color: rgb(85,26,139);
+    padding: 5px;
+}
+
+li a:hover {
+    background-color: black;
+    color: rgb(85,26,139);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Quantico', sans-serif;
+}
+
+body{
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(85,26,139);
+    text-align: center;
+}
+
+section {
+    border: 5px;
+    margin: 15px;
+    width: 50%;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#back-top {
+    display: block;
+    background: none;
+    margin: 0;
+    bottom: 50px;
+    margin-left: 95%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(20, 19, 19, 0.722);
+}
+
+p {
+    margin: 5px 50px 5px 50px;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
